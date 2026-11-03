@@ -1,0 +1,13 @@
+interface:
+  display_name: UI Component Contract
+  short_description: Reusable components, tokens and consistent geometry
+  default_prompt: Use $ui-component-contract to implement and verify this interface.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

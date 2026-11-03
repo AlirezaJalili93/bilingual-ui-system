@@ -1,0 +1,14 @@
+interface:
+  display_name: Bilingual UI System
+  short_description: Consistent Persian and English UI design rules
+  default_prompt: Use $bilingual-ui-system to build a component-based Persian and
+    English interface with precise RTL/LTR and light/dark themes.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

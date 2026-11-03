@@ -1,0 +1,6 @@
+{
+  "include": ["src", "app", "pages", "components", "styles", "public", "index.html"],
+  "exclude": ["node_modules", ".git", "dist", "build", "coverage", ".next", "vendor", ".ai"],
+  "token_files": ["src/styles/tokens.css", "styles/tokens.css", ".ai/ui-system/tokens.css"],
+  "exceptions": []
+}

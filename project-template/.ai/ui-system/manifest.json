@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "files": {
+    ".ai/ui-system/tokens.css": "578c9c634a03cbc20dd48e5166e9ca5fcbc2e2f65d635d1bab7907d0c2882dce",
+    ".ai/ui-system/guard.json": "83cb65c483a63212dfa55cfbcdf10c7a62c6a27605d076e78deab8cd495e3d11",
+    ".ai/ui-system/check_ui.py": "cdc18fc557de0956d0b32551bd229b75a87621939356b41993a4a444d86d639b",
+    ".ai/ui-system/icon.svg": "d80a4c3e0fd2efa7af88433a53b25a92c78a644175c6669dd78fee50fb53acf6",
+    ".ai/ui-system/theme-bootstrap.js": "b97c3cf1a7f95da1f7d5c8de24d469beb66f9134c6440e673754bb45ff252c0c",
+    ".ai/ui-system/POLICY.md": "4c252c4f125523ec36a940be36fb6face0ee526f0a642282675c63249552f1be",
+    ".ai/ui-system/implementation.md": "f9ec230a3090832f82f89d288d072e6f0ecb0408ff2c9288e22919059530bdd5",
+    ".ai/ui-system/components.md": "fb183b6ef3cb131ec2a10b394ccb42a731eb548f7c6b3391c9c1485314b7ef41",
+    ".ai/ui-system/bidi.md": "18e842a762982753df067c0d29227510afa3dbca6e318c921c9dd639ce842ef3",
+    ".ai/ui-system/themes.md": "48adbdb02863744eb895b2b1fdb0e17b9ce4e17c7d76002fe767a1f401b118a7",
+    ".ai/ui-system/USAGE_FA.md": "f47156a65f0a7879cfd9e96e58ae9101d018743ce3ab376b739baff8224bb45a"
+  }
+}

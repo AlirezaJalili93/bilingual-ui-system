@@ -1,0 +1,13 @@
+interface:
+  display_name: Light and Dark UI
+  short_description: Separate accessible light and dark theme contracts
+  default_prompt: Use $ui-light-dark to implement and verify this interface.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

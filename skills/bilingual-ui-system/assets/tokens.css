@@ -1,0 +1,196 @@
+/* Reference baseline. Import once after adapting to the app. Licensed fonts required. */
+@font-face {
+  font-family: IranYekan;
+  src: url('/fonts/iranyekan-regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: IranYekan;
+  src: url('/fonts/iranyekan-medium.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: IranYekan;
+  src: url('/fonts/iranyekan-bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+:root {
+  --font-fa: IranYekan, Tahoma, sans-serif;
+  --font-en: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --radius-none: 0;
+  --radius-sm: 4px;
+  --radius-control: 8px;
+  --radius-surface: 12px;
+  --radius-dialog: 16px;
+  --radius-full: 9999px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --text-sm: .875rem;
+  --text-body: 1rem;
+  --text-title: 1.5rem;
+  --control-sm: 40px;
+  --control-md: 44px;
+  --control-lg: 48px;
+  --focus-width: 2px;
+  --focus-offset: 3px;
+  --layer-popover: 30;
+  --layer-dialog: 50;
+  --layer-toast: 70;
+  --motion-fast: 150ms;
+}
+:root[data-theme='light'] {
+  color-scheme: light;
+  --color-canvas: #f3f5f8;
+  --color-surface: #ffffff;
+  --color-elevated: #ffffff;
+  --color-text: #182334;
+  --color-muted: #526079;
+  --color-border: #d1d8e2;
+  --color-control-border: #6f7c90;
+  --color-primary: #324462;
+  --color-on-primary: #ffffff;
+  --color-primary-hover: #293954;
+  --color-primary-active: #202e45;
+  --color-link: #244f92;
+  --color-success: #14643b;
+  --color-success-bg: #e8f6ed;
+  --color-warning: #754900;
+  --color-warning-bg: #fff3d5;
+  --color-danger: #a21d32;
+  --color-danger-bg: #ffedf0;
+  --color-info: #1d5088;
+  --color-info-bg: #eaf2ff;
+  --color-focus: #135bc2;
+  --color-selection-bg: #dbe9ff;
+  --color-selection-text: #182334;
+  --color-disabled-bg: #e1e6ee;
+  --color-disabled-text: #58657a;
+  --color-skeleton: #dbe1e9;
+  --color-overlay: rgba(15, 23, 42, .48);
+  --color-chart-1: #244f92;
+  --color-chart-2: #14643b;
+  --color-chart-3: #754900;
+  --color-chart-4: #a21d32;
+  --shadow-surface: 0 4px 20px rgba(15, 23, 42, .12);
+}
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --color-canvas: #0f1724;
+  --color-surface: #182334;
+  --color-elevated: #223047;
+  --color-text: #f1f5fc;
+  --color-muted: #b0bdd1;
+  --color-border: #3a4961;
+  --color-control-border: #8293ae;
+  --color-primary: #b4cdf7;
+  --color-on-primary: #142540;
+  --color-primary-hover: #c9dcfa;
+  --color-primary-active: #9bbcf0;
+  --color-link: #b4cdf7;
+  --color-success: #87dfb0;
+  --color-success-bg: #143e2c;
+  --color-warning: #ffd37c;
+  --color-warning-bg: #493615;
+  --color-danger: #ffacba;
+  --color-danger-bg: #4c2330;
+  --color-info: #a9d0ff;
+  --color-info-bg: #1b3555;
+  --color-focus: #9fc7ff;
+  --color-selection-bg: #35507a;
+  --color-selection-text: #f1f5fc;
+  --color-disabled-bg: #2c394e;
+  --color-disabled-text: #adbbcf;
+  --color-skeleton: #34435b;
+  --color-overlay: rgba(0, 0, 0, .66);
+  --color-chart-1: #a9d0ff;
+  --color-chart-2: #87dfb0;
+  --color-chart-3: #ffd37c;
+  --color-chart-4: #ffacba;
+  --shadow-surface: 0 4px 20px rgba(0, 0, 0, .32);
+}
+/* Apply to prose text blocks only, never the page root or widget containers. */
+.ui-prose {
+  text-align: justify;
+  text-align-last: start;
+  text-justify: auto;
+  overflow-wrap: anywhere;
+}
+html { font-size: 100%; }
+html:lang(fa) { font-family: var(--font-fa); line-height: 1.75; }
+html:lang(en) { font-family: var(--font-en); line-height: 1.5; }
+:lang(fa) { font-family: var(--font-fa); }
+:lang(en) { font-family: var(--font-en); }
+body {
+  margin: 0;
+  color: var(--color-text);
+  background: var(--color-canvas);
+  font-size: var(--text-body);
+}
+button, input, select, textarea { font: inherit; }
+::selection { color: var(--color-selection-text); background: var(--color-selection-bg); }
+:focus-visible {
+  outline: var(--focus-width) solid var(--color-focus);
+  outline-offset: var(--focus-offset);
+}
+.ui-control {
+  min-block-size: var(--control-md);
+  padding-block: var(--space-2);
+  padding-inline: var(--space-4);
+  border: 1px solid var(--color-control-border);
+  border-radius: var(--radius-control);
+  color: var(--color-text);
+  background: var(--color-surface);
+  text-align: start;
+}
+.ui-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-block-size: var(--control-md);
+  padding-block: var(--space-2);
+  padding-inline: var(--space-4);
+  border: 1px solid transparent;
+  border-radius: var(--radius-control);
+  color: var(--color-on-primary);
+  background: var(--color-primary);
+}
+.ui-button:hover:not(:disabled) { background: var(--color-primary-hover); }
+.ui-button:active:not(:disabled) { background: var(--color-primary-active); }
+.ui-button:disabled {
+  color: var(--color-disabled-text);
+  background: var(--color-disabled-bg);
+  cursor: not-allowed;
+}
+.ui-surface {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-surface);
+  background: var(--color-surface);
+  padding: var(--space-4);
+}
+.ui-dialog {
+  color: var(--color-text);
+  background: var(--color-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-dialog);
+  box-shadow: var(--shadow-surface);
+}
+.ui-dialog::backdrop { background: var(--color-overlay); }
+.ui-ltr { direction: ltr; unicode-bidi: isolate; text-align: start; }
+@media (prefers-reduced-motion: reduce) {
+  :root { --motion-fast: 0ms; }
+}
+@media (forced-colors: active) {
+  .ui-button, .ui-control { border-color: ButtonText; }
+  :focus-visible { outline-color: Highlight; }
+}

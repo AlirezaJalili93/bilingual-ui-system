@@ -1,0 +1,329 @@
+{
+  "package": "Bilingual UI System Pack",
+  "version": "1.1.0",
+  "date": "2026-11-01",
+  "source_installer_version": 1,
+  "files": [
+    {
+      "path": "Bilingual_UI_Rules_Installer.py",
+      "size_bytes": 50901,
+      "sha256": "2c96bb21d3752af2ca789cd83cebaba80b39309538d42f3fb1387f7e4fe1df4f"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 4832,
+      "sha256": "bb62bc670c2bdc36019b42909aef9497970cb1dff1a3a08f1305520e2fd6372c"
+    },
+    {
+      "path": "README_EN.md",
+      "size_bytes": 1794,
+      "sha256": "a4a6dfa7e675e7f5a9fa16029e52362a0568d6e51519de828aa3bd35ba48e5bb"
+    },
+    {
+      "path": "VERIFICATION.md",
+      "size_bytes": 1605,
+      "sha256": "c2006b45152b8022175965dde9e3fde6b848b183ad8ed78715045aa31ad09d26"
+    },
+    {
+      "path": "docs/01_Features_FA.md",
+      "size_bytes": 3867,
+      "sha256": "9b97ce6a83a9794c1d70ac41e54b6909fc4a923500379e4d1e417a9332451852"
+    },
+    {
+      "path": "docs/02_How_It_Works_FA.md",
+      "size_bytes": 3762,
+      "sha256": "ede6cfee348a6c75f857a5ec8ce6207f479642525fb88596f4cb4463e1f7d627"
+    },
+    {
+      "path": "docs/03_Installation_FA.md",
+      "size_bytes": 3835,
+      "sha256": "117c7b9a98c82d3569b21f8e5d6615465434cc8354a2c88b84b909f8ed010c67"
+    },
+    {
+      "path": "docs/04_Usage_FA.md",
+      "size_bytes": 3520,
+      "sha256": "e7ed056730b7466f408a935bf5b1347745fa10689485614f72eb129a7e7a5ea7"
+    },
+    {
+      "path": "docs/05_Components_Tokens_FA.md",
+      "size_bytes": 3367,
+      "sha256": "d9d5ce0debacdc63b9e04af22cdac0b11047322c50800873615a03f7d6a2c409"
+    },
+    {
+      "path": "docs/06_Language_Font_Justify_FA.md",
+      "size_bytes": 4362,
+      "sha256": "cdd88eb84f168eca17d124d43357f536d4e45d3f821fdf7b55846e8946b0f80f"
+    },
+    {
+      "path": "docs/07_Themes_FA.md",
+      "size_bytes": 3803,
+      "sha256": "8fce0f15697d4556807a21e085133e5968af6785c9ff8bf6522e78130e415595"
+    },
+    {
+      "path": "docs/08_QA_CI_FA.md",
+      "size_bytes": 4469,
+      "sha256": "42432fe9480e9460d988244430387690e56323a14c0fa849b7e103c3ae853dc8"
+    },
+    {
+      "path": "docs/09_Troubleshooting_FA.md",
+      "size_bytes": 4333,
+      "sha256": "c38a451b54d45906d01723dadd9279335fa20d7bf97aa41626723aa9a6a8628e"
+    },
+    {
+      "path": "docs/10_Customization_Upgrade_FA.md",
+      "size_bytes": 3928,
+      "sha256": "fca87df81ee64fcc39111fb3073a2bcdf017c1da1315f5e507ee3e7f861aa8b7"
+    },
+    {
+      "path": "docs/11_Limits_Rights_FA.md",
+      "size_bytes": 3086,
+      "sha256": "b95f8612c3ec0963e67dcf21bb4ad82bdc269531eb82c5cd2f488319a734737c"
+    },
+    {
+      "path": "docs/12_File_Map_FA.md",
+      "size_bytes": 2051,
+      "sha256": "9f4d9feb42588b398c0b0cb3fb8974bfe94fd081a75cbda88a8d7e2f2a37d9a5"
+    },
+    {
+      "path": "examples/Bilingual_Prose.md",
+      "size_bytes": 1447,
+      "sha256": "ea72e5324ffee128812f00a9971637e8a6334b76272f5d465dc9e32a5a2f5b51"
+    },
+    {
+      "path": "examples/Theme_API.md",
+      "size_bytes": 988,
+      "sha256": "749f202dff9c5f8e500ab42a029db67400e8c8b3e1e20e5e2295226b1e477da7"
+    },
+    {
+      "path": "project-template/.ai/ui-system/POLICY.md",
+      "size_bytes": 12347,
+      "sha256": "4c252c4f125523ec36a940be36fb6face0ee526f0a642282675c63249552f1be"
+    },
+    {
+      "path": "project-template/.ai/ui-system/USAGE_FA.md",
+      "size_bytes": 3997,
+      "sha256": "f47156a65f0a7879cfd9e96e58ae9101d018743ce3ab376b739baff8224bb45a"
+    },
+    {
+      "path": "project-template/.ai/ui-system/bidi.md",
+      "size_bytes": 3826,
+      "sha256": "18e842a762982753df067c0d29227510afa3dbca6e318c921c9dd639ce842ef3"
+    },
+    {
+      "path": "project-template/.ai/ui-system/check_ui.py",
+      "size_bytes": 4700,
+      "sha256": "cdc18fc557de0956d0b32551bd229b75a87621939356b41993a4a444d86d639b"
+    },
+    {
+      "path": "project-template/.ai/ui-system/components.md",
+      "size_bytes": 2636,
+      "sha256": "fb183b6ef3cb131ec2a10b394ccb42a731eb548f7c6b3391c9c1485314b7ef41"
+    },
+    {
+      "path": "project-template/.ai/ui-system/guard.json",
+      "size_bytes": 296,
+      "sha256": "83cb65c483a63212dfa55cfbcdf10c7a62c6a27605d076e78deab8cd495e3d11"
+    },
+    {
+      "path": "project-template/.ai/ui-system/icon.svg",
+      "size_bytes": 2094,
+      "sha256": "d80a4c3e0fd2efa7af88433a53b25a92c78a644175c6669dd78fee50fb53acf6"
+    },
+    {
+      "path": "project-template/.ai/ui-system/implementation.md",
+      "size_bytes": 2389,
+      "sha256": "f9ec230a3090832f82f89d288d072e6f0ecb0408ff2c9288e22919059530bdd5"
+    },
+    {
+      "path": "project-template/.ai/ui-system/manifest.json",
+      "size_bytes": 1149,
+      "sha256": "2ba5e41b4b66f2a30a1f13ab74520a3b482666ea9bb7376dcb9744aca209287c"
+    },
+    {
+      "path": "project-template/.ai/ui-system/theme-bootstrap.js",
+      "size_bytes": 2031,
+      "sha256": "b97c3cf1a7f95da1f7d5c8de24d469beb66f9134c6440e673754bb45ff252c0c"
+    },
+    {
+      "path": "project-template/.ai/ui-system/themes.md",
+      "size_bytes": 2328,
+      "sha256": "48adbdb02863744eb895b2b1fdb0e17b9ce4e17c7d76002fe767a1f401b118a7"
+    },
+    {
+      "path": "project-template/.ai/ui-system/tokens.css",
+      "size_bytes": 5712,
+      "sha256": "578c9c634a03cbc20dd48e5166e9ca5fcbc2e2f65d635d1bab7907d0c2882dce"
+    },
+    {
+      "path": "project-template/.cursor/rules/bilingual-ui.mdc",
+      "size_bytes": 1567,
+      "sha256": "35bcab80716f4b46b7b5f92816e812456126a66e27f3155dc82a9ee993aeff3a"
+    },
+    {
+      "path": "project-template/.github/copilot-instructions.md",
+      "size_bytes": 1477,
+      "sha256": "c4d0b57c6e1e22754ec05d63bb73678b15d5c052325d7bed19da8bfd582c3c19"
+    },
+    {
+      "path": "project-template/AGENTS.md",
+      "size_bytes": 1477,
+      "sha256": "c4d0b57c6e1e22754ec05d63bb73678b15d5c052325d7bed19da8bfd582c3c19"
+    },
+    {
+      "path": "project-template/CLAUDE.md",
+      "size_bytes": 1477,
+      "sha256": "c4d0b57c6e1e22754ec05d63bb73678b15d5c052325d7bed19da8bfd582c3c19"
+    },
+    {
+      "path": "project-template/GEMINI.md",
+      "size_bytes": 1477,
+      "sha256": "c4d0b57c6e1e22754ec05d63bb73678b15d5c052325d7bed19da8bfd582c3c19"
+    },
+    {
+      "path": "skills/bilingual-ui-system/SKILL.md",
+      "size_bytes": 3221,
+      "sha256": "f4fe6a0508c52f3ce76c32e87474f8bcc01d84d2c83e0cbe6a9d2da3a45a9e32"
+    },
+    {
+      "path": "skills/bilingual-ui-system/agents/openai.yaml",
+      "size_bytes": 417,
+      "sha256": "f86e2b17fcf8f36ed3ec12511e0e7b05da78bc901877958cc09eaa4d1bb0ad03"
+    },
+    {
+      "path": "skills/bilingual-ui-system/assets/check_ui.py",
+      "size_bytes": 4700,
+      "sha256": "cdc18fc557de0956d0b32551bd229b75a87621939356b41993a4a444d86d639b"
+    },
+    {
+      "path": "skills/bilingual-ui-system/assets/guard.json",
+      "size_bytes": 296,
+      "sha256": "83cb65c483a63212dfa55cfbcdf10c7a62c6a27605d076e78deab8cd495e3d11"
+    },
+    {
+      "path": "skills/bilingual-ui-system/assets/icon.svg",
+      "size_bytes": 2182,
+      "sha256": "51a6923974188748638a424aa59b42b6afad2d910f910a1d43bb13ee10f3ce26"
+    },
+    {
+      "path": "skills/bilingual-ui-system/assets/theme-bootstrap.js",
+      "size_bytes": 2031,
+      "sha256": "b97c3cf1a7f95da1f7d5c8de24d469beb66f9134c6440e673754bb45ff252c0c"
+    },
+    {
+      "path": "skills/bilingual-ui-system/assets/tokens.css",
+      "size_bytes": 5712,
+      "sha256": "578c9c634a03cbc20dd48e5166e9ca5fcbc2e2f65d635d1bab7907d0c2882dce"
+    },
+    {
+      "path": "skills/bilingual-ui-system/references/POLICY.md",
+      "size_bytes": 12347,
+      "sha256": "4c252c4f125523ec36a940be36fb6face0ee526f0a642282675c63249552f1be"
+    },
+    {
+      "path": "skills/bilingual-ui-system/references/implementation.md",
+      "size_bytes": 2389,
+      "sha256": "f9ec230a3090832f82f89d288d072e6f0ecb0408ff2c9288e22919059530bdd5"
+    },
+    {
+      "path": "skills/bilingual-ui-system/scripts/export_rules_installer.py",
+      "size_bytes": 595,
+      "sha256": "58c65d3923c89085eb7a6266ec2823d375c31f8a091aae3d35c3388555eb468d"
+    },
+    {
+      "path": "skills/bilingual-ui-system/scripts/install_project_rules.py",
+      "size_bytes": 176,
+      "sha256": "85d37076ca25024781e20612c2a7ecb80403062da7d669226c49d98a20ff806f"
+    },
+    {
+      "path": "skills/bilingual-ui-system/scripts/project_rules.py",
+      "size_bytes": 11345,
+      "sha256": "022b86c72ff3b7a9412fa623ebc5692bc0849a2acfbde247ff934be790484cb8"
+    },
+    {
+      "path": "skills/ui-component-contract/SKILL.md",
+      "size_bytes": 1369,
+      "sha256": "84a1e400601f99598272c40dae845110dbd266b0538616a1433d93c86a5d5129"
+    },
+    {
+      "path": "skills/ui-component-contract/agents/openai.yaml",
+      "size_bytes": 361,
+      "sha256": "be43b26436aa25b02ada7713a95f4947e4ea9d415346ac157d25be1fdf1f1295"
+    },
+    {
+      "path": "skills/ui-component-contract/assets/icon.svg",
+      "size_bytes": 2922,
+      "sha256": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4"
+    },
+    {
+      "path": "skills/ui-component-contract/references/components.md",
+      "size_bytes": 2636,
+      "sha256": "fb183b6ef3cb131ec2a10b394ccb42a731eb548f7c6b3391c9c1485314b7ef41"
+    },
+    {
+      "path": "skills/ui-light-dark/SKILL.md",
+      "size_bytes": 1445,
+      "sha256": "1d296c34063464fe7192f3bf70619e4fe8ee8d878292605d0a6bc42866207505"
+    },
+    {
+      "path": "skills/ui-light-dark/agents/openai.yaml",
+      "size_bytes": 348,
+      "sha256": "1e9aa2a1adfb1c60e72557a1fd975ba7d8a33491fd6c119a6dec9663d665b202"
+    },
+    {
+      "path": "skills/ui-light-dark/assets/icon.svg",
+      "size_bytes": 420,
+      "sha256": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b"
+    },
+    {
+      "path": "skills/ui-light-dark/references/themes.md",
+      "size_bytes": 2328,
+      "sha256": "48adbdb02863744eb895b2b1fdb0e17b9ce4e17c7d76002fe767a1f401b118a7"
+    },
+    {
+      "path": "skills/ui-persian-english/SKILL.md",
+      "size_bytes": 1588,
+      "sha256": "563953527515b5f4db29a36d15b3f97f8e64148a79a68e3b0b669004b39b3944"
+    },
+    {
+      "path": "skills/ui-persian-english/agents/openai.yaml",
+      "size_bytes": 355,
+      "sha256": "2f13479b13073b2da845b4520d18ad969c66dd72899ff259fb18b18453ff181d"
+    },
+    {
+      "path": "skills/ui-persian-english/assets/icon.svg",
+      "size_bytes": 1738,
+      "sha256": "8936b24f674a1250d999e2c2b5901374fb4240426f32bd1ae340c352a90d617d"
+    },
+    {
+      "path": "skills/ui-persian-english/references/bidi.md",
+      "size_bytes": 3826,
+      "sha256": "18e842a762982753df067c0d29227510afa3dbca6e318c921c9dd639ce842ef3"
+    },
+    {
+      "path": "templates/Component_Spec_FA.md",
+      "size_bytes": 1311,
+      "sha256": "644dcac8d68dff397d8583d18c08a89a47774db49f1ada64c52707f72cedbf40"
+    },
+    {
+      "path": "templates/Design_Decisions_FA.md",
+      "size_bytes": 1141,
+      "sha256": "87b595b6833de533f15233dd2da9ef58d069a304897adf6521830b63450ef838"
+    },
+    {
+      "path": "templates/Guard_Config_Example.md",
+      "size_bytes": 1065,
+      "sha256": "e72523aad419f8444c2d089b2d081c0f47b5368ff3008f7d5b2d4b1a9a69880d"
+    },
+    {
+      "path": "templates/Migration_Plan_FA.md",
+      "size_bytes": 1182,
+      "sha256": "e12258ad15ffb6fa848c3c6c8a44bd6ffb2dc62da608d8465a1130f44f80fb0f"
+    },
+    {
+      "path": "templates/QA_Report_FA.md",
+      "size_bytes": 2080,
+      "sha256": "56512ce8a8480ce42b00fab6a39bd1d10819c4ab93921663ca5b42345bc00aac"
+    }
+  ],
+  "notes": "Manifest excludes itself and SHA256SUMS.txt to avoid recursive checksums. Font binaries are not included."
+}

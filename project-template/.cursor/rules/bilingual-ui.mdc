@@ -1,0 +1,30 @@
+---
+description: Mandatory bilingual component-based UI contract
+alwaysApply: true
+---
+
+
+
+<!-- bilingual-ui-system:begin -->
+# Mandatory bilingual UI workflow
+
+For every UI task, read `.ai/ui-system/POLICY.md` before editing and follow it.
+Use the `bilingual-ui-system`, `ui-component-contract`, `ui-persian-english` and
+`ui-light-dark` skills when available; otherwise use the portable policy and its
+component, bidi and theme references. Backend-only tasks need no UI work.
+
+MUST: shared components and semantic tokens; one radius role mapping; Persian
+`lang=fa dir=rtl` with licensed IranYekan; English `lang=en dir=ltr` with system
+sans-serif; logical CSS and isolated mixed text; explicit light/dark token sets
+with independent light/dark/system preference; accessible keyboard/focus states.
+MUST: justify multi-line Persian and English prose with the last line aligned to
+start; preserve logical alignment for headings, controls, tables and code.
+
+MUST: inspect existing conventions, document token/locale/theme mappings, and
+verify fa/light, fa/dark, en/light, en/dark for changed flows, including responsive
+layout and all states. Run the configured static guard plus applicable app/browser
+checks. Report actual evidence and blockers; never claim unexecuted checks passed.
+Read `.ai/ui-system/POLICY.md` for exact acceptance, typography and contrast rules.
+Do not complete UI work with failed mandatory checks or silently bypass this policy.
+Follow host instruction precedence and explicit user changes; document exceptions.
+<!-- bilingual-ui-system:end -->

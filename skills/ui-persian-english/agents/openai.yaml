@@ -1,0 +1,13 @@
+interface:
+  display_name: Persian and English UI
+  short_description: Precise RTL/LTR, IranYekan and bilingual layout
+  default_prompt: Use $ui-persian-english to implement and verify this interface.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
